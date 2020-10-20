@@ -5,7 +5,28 @@ body {
 .card {
     font-size: 125px;
 }
+.button {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
 
+.button a {
+    text-decoration: none;
+    color: black;
+    background-color: #D3D8D2;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 2px solid black;
+    
+}
+
+.wrapper {
+    width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
 .container {
     background-color: white;
     width: 250px;
@@ -14,8 +35,8 @@ body {
     place-items: center;
     border-radius: 15px;
     position: relative;
-    margin: 200px auto;
     border: 2px solid black;
+    margin: 0 auto;
 }
 /* CLUBS */ 
 .clubs::before {
