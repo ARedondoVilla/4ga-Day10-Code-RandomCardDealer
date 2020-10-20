@@ -1,3 +1,102 @@
 body {
-    background-color: red;
+    background-color: green;
+}
+
+.card {
+    font-size: 125px;
+}
+
+.container {
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    position: relative;
+    margin: 200px auto;
+    border: 2px solid black;
+}
+/* CLUBS */ 
+.clubs::before {
+    content: "\2663";
+    color: black;
+    font-size: 75px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.clubs::after {
+    content: "\2663";
+    color: black;
+    font-size: 75px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+/* DIAMS */
+.diams::before {
+    content: "\2666";
+    color: red;
+    font-size: 75px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.diams::after {
+    content: "\2666";
+    color: red;
+    font-size: 75px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+/* HEARTS */
+.hearts::before {
+    content: "\2665";
+    color: red;
+    font-size: 75px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.hearts::after {
+    content: "\2665";
+    color: red;
+    font-size: 75px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+/* SPADES */ 
+.spades::before {
+    content: "\2660";
+    color: black;
+    font-size: 75px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.spades::after {
+    content: "\2660";
+    color: black;
+    font-size: 75px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
 }
